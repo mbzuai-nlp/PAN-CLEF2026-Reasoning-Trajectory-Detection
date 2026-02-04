@@ -1,0 +1,1 @@
+# PAN-CLEF2026-Reasoning-Trajectory-Detection
