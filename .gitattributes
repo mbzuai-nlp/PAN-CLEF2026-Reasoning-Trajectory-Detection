@@ -1,0 +1,6 @@
+.jsonl filter=lfs diff=lfs merge=lfs -text
+data/subtask1/train/train_gpt-5-nano.jsonl filter=lfs diff=lfs merge=lfs -text
+data/subtask1/train/train_human.jsonl filter=lfs diff=lfs merge=lfs -text
+data/subtask1/train/train_k2think-v2.jsonl filter=lfs diff=lfs merge=lfs -text
+data/subtask1/train/train_deepseek-r1.jsonl filter=lfs diff=lfs merge=lfs -text
+data/subtask1/train/train_gemini-3-flash.jsonl filter=lfs diff=lfs merge=lfs -text
