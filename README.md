@@ -25,6 +25,10 @@ The year 2025 saw major advances in the reasoning capabilities of large language
 
 ## <a name="news"></a> NEWS
 
+### 12 April 2026
+
+We have updated some minor changes in our training and validation set.
+
 ### 12 Feb 2026
 
 We have released our training and validation set.
@@ -65,7 +69,8 @@ We have released our training and validation set.
 All dates are AoE.
 
 - February 12, 2025: Training/dev set release
-- March 30, 2025: Test set release
+- April 15, 2025: Test set and Task submission link release
+- Aprl 23, 2025: Lab registration close
 - May 07, 2025: Final submission deadline
 - May 28, 2025: Participant paper submission
 <!-- - June 27, 2025: Peer review notification -->
