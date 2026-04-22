@@ -25,6 +25,10 @@ The year 2025 saw major advances in the reasoning capabilities of large language
 
 ## <a name="news"></a> NEWS
 
+### 22 April 2026
+
+Training and inference code for baseline model are released.
+
 ### 12 April 2026
 
 We have updated some minor changes in our training and validation set.
