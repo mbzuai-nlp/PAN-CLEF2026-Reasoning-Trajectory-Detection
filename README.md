@@ -25,6 +25,10 @@ The year 2025 saw major advances in the reasoning capabilities of large language
 
 ## <a name="news"></a> NEWS
 
+### 29 April 2026
+
+The deadline for submission is changed to May 13, 2026.
+
 ### 22 April 2026
 
 Training and inference code for baseline model are released.
@@ -72,11 +76,11 @@ We have released our training and validation set.
 ## <a name="important_dates"></a>Important Dates
 All dates are AoE.
 
-- February 12, 2025: Training/dev set release
-- April 15, 2025: Test set and Task submission link release
-- Aprl 23, 2025: Lab registration close
-- May 07, 2025: Final submission deadline
-- May 28, 2025: Participant paper submission
+- February 12, 2026: Training/dev set release
+- April 15, 2026: Test set and Task submission link release
+- Aprl 23, 2026: Lab registration close
+- ~~May 07, 2026~~ May 13, 2026: Final submission deadline
+- May 28, 2026: Participant paper submission
 <!-- - June 27, 2025: Peer review notification -->
 
 
