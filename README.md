@@ -25,6 +25,10 @@ The year 2025 saw major advances in the reasoning capabilities of large language
 
 ## <a name="news"></a> NEWS
 
+### 30 April 2026
+
+Test set are released.
+
 ### 29 April 2026
 
 The deadline for submission is changed to May 13, 2026.
