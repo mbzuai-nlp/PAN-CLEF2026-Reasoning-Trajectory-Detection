@@ -114,8 +114,11 @@ For each sample, F1 is computed between the predicted and ground-truth step labe
 $$\text{F1}^{(i)} = \frac{2 \cdot tp_{\text{soft}}}{2 \cdot tp_{\text{soft}} + fp_{\text{soft}} + fn_{\text{soft}}}$$
 
 with: 
+
 $$tp_{\text{soft}} = \sum_j \hat{y}_j \cdot y_j$$
+
 $$fp_{\text{soft}} = \sum_j \hat{y}_j \cdot (1 - y_j)$$
+
 $$fn_{\text{soft}} = \sum_j (1 - \hat{y}_j) \cdot y_j$$
 
 
