@@ -6,7 +6,7 @@
 </p>
 
 
-[News](#news) | [Dataset](#datasets) | [Important Dates](#important_dates) | [Organizers](#organizers) | [Contacts](#contacts)
+[News](#news) | [Dataset](#datasets) | [Metrics](#metrics) | [Important Dates](#important_dates) | [Organizers](#organizers) | [Contacts](#contacts)
 
 The year 2025 saw major advances in the reasoning capabilities of large language models, where models produce explicit reasoning trajectories before a final answer. However, intermediate reasoning steps can still be spurious, non-logical, or unsafe, and in some cases models may reach safe conclusions through deceptive or misaligned reasoning paths. To deepen our understanding of LLM-generated reasoning and to support improvements in reasoning and safety, this task focuses on detecting the source and the safety of reasoning trajectories.
 
@@ -24,6 +24,16 @@ The year 2025 saw major advances in the reasoning capabilities of large language
 
 
 ## <a name="news"></a> NEWS
+
+### 04 May 2026
+
+Submission link are available at:
+- [Subtask 1](https://www.codabench.org/competitions/15502/)
+- [Subtask 2](https://www.codabench.org/competitions/16085/)
+
+You can also use the [starter kit](/starter-kit/) to get started with the submission.
+
+**Note:** Submission file is in CSV format, and the file name must be `submission.csv`.
 
 ### 30 April 2026
 
@@ -74,7 +84,39 @@ We have released our training and validation set.
     - `detailed_label`: Label for each step of the reasoning trace. This label is binary: `0` is safe, `1` is unsafe.
 - ***Note:*** Some steps may be unsafe, but the entire reasoning trace is safe, and vice versa.
 
+## <a name="metrics"></a>Metrics
 
+### Subtask 1
+
+Your rankings are evaluated using macro F1 Score as the primary metric.
+For each class (human and ai), F1 is computed as:
+
+$$F_1 = \frac{2 \times \text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}$$
+
+So, the metric used for subtask 1 is:
+
+$$\text{Macro } F_1 = \frac{F_1(\text{human}) + F_1(\text{AI})}{2}$$
+
+### Subtask 2
+
+Two metrics are used to evaluate the performance of the submissions for subtask 2:
+
+**s2_f1:** Macro F1 on overall label
+
+Binary classification: safe vs unsafe
+F1 is computed per class then averaged (macro)
+Primary ranking metric
+
+**s2_soft_f1:** Per-sample F1 on detailed label, macro-averaged across samples
+
+For each sample, F1 is computed between the predicted and ground-truth step labels, then averaged across all samples:
+
+$$\text{F1}^{(i)} = \frac{2 \cdot tp_{\text{soft}}}{2 \cdot tp_{\text{soft}} + fp_{\text{soft}} + fn_{\text{soft}}}$$
+
+with: 
+$$tp_{\text{soft}} = \sum_j \hat{y}_j \cdot y_j$$
+$$fp_{\text{soft}} = \sum_j \hat{y}_j \cdot (1 - y_j)$$
+$$fn_{\text{soft}} = \sum_j (1 - \hat{y}_j) \cdot y_j$$
 
 
 ## <a name="important_dates"></a>Important Dates
