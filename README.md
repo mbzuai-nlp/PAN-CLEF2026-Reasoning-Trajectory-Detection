@@ -41,7 +41,7 @@ Test set are released.
 
 ### 29 April 2026
 
-The deadline for submission is changed to May 13, 2026.
+The deadline for submission is changed to May 21, 2026.
 
 ### 22 April 2026
 
@@ -128,7 +128,7 @@ All dates are AoE.
 - February 12, 2026: Training/dev set release
 - April 15, 2026: Test set and Task submission link release
 - Aprl 23, 2026: Lab registration close
-- ~~May 07, 2026~~ May 13, 2026: Final submission deadline
+- ~~May 07, 2026~~ May 21, 2026: Final submission deadline
 - May 28, 2026: Participant paper submission
 <!-- - June 27, 2025: Peer review notification -->
 
